@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100dvw;
+  overflow-x: hidden;
+  background-color: #0E0E0E;
+}
+
+@layer utilities{
+  .userMsgStyle{
+    @apply my-[2rem] mx-[3rem] min-w-[20vw] px-4 py-2.5 bg-[#181818] max-w-[100%] rounded-lg self-end;
+  }
+  .responseMsgStyle{
+    @apply my-[2rem] mx-[3rem] min-w-[20vw] px-4 py-2.5 bg-gradient-to-r from-pink-500 to-blue-500 max-w-[100%] rounded-lg self-start ;
+  }
+}
