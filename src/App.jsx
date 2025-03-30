@@ -132,7 +132,7 @@ const App = () => {
           <input onKeyDown={(e) => {if (e.key === "Enter") {hitRequest(message)}}} value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Write your text here...' className='rounded-[30px] pl-5 p-[0.8rem] w-[95%] bg-[#181818] outline-none border-none' type="text" />
           {message && <BiSolidSend className='mr-3 text-[1.2rem] cursor-pointer' onClick={()=>hitRequest(message)} />}
         </div>
-        <p className='text-[10px] text-[gray] mt-2 custom-sm:w-[15rem] text-center'>This Bot is developed by Soyam Paul. Using Gemmini AI to generate replies.</p>
+        <p className='text-[10px] text-[gray] mt-2 custom-sm:w-[15rem] text-center'>This Bot is developed by Soyam Paul. Using Gemini AI to generate replies.</p>
       </div>
     </div>
   );
