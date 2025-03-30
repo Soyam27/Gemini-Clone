@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import { BiSolidSend } from "react-icons/bi";
 import { GiMaterialsScience } from "react-icons/gi";
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { BsTranslate } from "react-icons/bs";
@@ -77,7 +78,7 @@ const App = () => {
         <div className="min-h-[70vh] mt-5">
           <div className="header flex justify-between">
             <h3 onClick={() => {setIsResponseScreen(false); setMessages([])}} className='text-[1.5rem] bg-gradient-to-r from-pink-500 to-blue-500 text-transparent bg-clip-text cursor-pointer'>
-              Avgsoyam
+              AvgGpt
             </h3>
             <button className='bg-[#181818] p-2 px-4 rounded-full text-center hover:scale-105 transition-transform' onClick={() => {setMessages([])}}>
               New Chat
@@ -99,7 +100,7 @@ const App = () => {
       ) : (
         <div className="middle min-h-[70vh] mt-5 flex flex-col justify-center items-center">
           <h1 className="text-3xl md:text-4xl font-light bg-gradient-to-r from-pink-500 to-blue-500 text-transparent bg-clip-text">
-            Avgsoyam
+          <b>AvgGpt</b>
           </h1>
 
           <div className="mt-14 box grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
