@@ -109,12 +109,12 @@ const App = () => {
               <GiMaterialsScience  className="absolute right-4 bottom-4 text-xl" />
             </div>
 
-            <div onClick={(e) => { handleLandingPageText(e) }} className="relative cursor-pointer min-h-[20vh] bg-[#212121] rounded-lg p-4 hover:scale-105 transition-transform">
+            <div onClick={(e) => { handleLandingPageText(e) }} className="custom-sm:hidden relative cursor-pointer min-h-[20vh] bg-[#212121] rounded-lg p-4 hover:scale-105 transition-transform">
               <p className="m-3">Help me brainstorm ideas for a birthday gift</p>
               <LiaBirthdayCakeSolid  className="absolute right-4 bottom-4 text-xl" />
             </div>
 
-            <div onClick={(e) => { handleLandingPageText(e) }} className="relative cursor-pointer min-h-[20vh] bg-[#212121] rounded-lg p-4 hover:scale-105 transition-transform">
+            <div onClick={(e) => { handleLandingPageText(e) }} className="custom-sm:hidden relative cursor-pointer min-h-[20vh] bg-[#212121] rounded-lg p-4 hover:scale-105 transition-transform">
               <p className="m-3">Translate "Hello, how are you?" into Hindi</p>
               <BsTranslate className="absolute right-4 bottom-4 text-xl" />
             </div>
